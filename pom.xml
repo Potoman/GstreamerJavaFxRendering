@@ -1,0 +1,70 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.potoman</groupId>
+	<artifactId>gstreamer-javafx-rendering</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+<!-- 	<packaging>nar</packaging> -->
+
+<!-- 	<build> -->
+<!-- 		<defaultGoal>install</defaultGoal> -->
+<!-- 		<plugins> -->
+<!-- 			<plugin> -->
+<!-- 				<groupId>com.github.maven-nar</groupId> -->
+<!-- 				<artifactId>nar-maven-plugin</artifactId> -->
+<!-- 				<extensions>true</extensions> -->
+<!-- 				<configuration> -->
+<!-- 					<cpp> -->
+<!-- 						<debug>true</debug> -->
+<!-- 					</cpp> -->
+<!-- 					<c> -->
+<!-- 						<testOptions> -->
+<!-- 							<testOption>-DTESTOPT="this is a nar-testCompile flag"</testOption> -->
+<!-- 						</testOptions> -->
+<!-- 						<includePaths> -->
+<!-- 							<includePath> -->
+<!-- 								<path>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include</path> -->
+<!-- 								<includes> -->
+<!-- 								<include>stdio.h</include> -->
+<!-- 								</includes> -->
+<!-- 							</includePath> -->
+<!-- 						</includePaths> -->
+<!-- 					</c> -->
+<!-- 					<linker> -->
+<!-- 						<libs> -->
+<!-- 							<lib> -->
+<!-- 								<name>msvcrt</name> -->
+<!-- 								<directory>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib</directory> -->
+<!-- 							</lib> -->
+<!-- 							<lib> -->
+<!-- 								<name>oldnames</name> -->
+<!-- 								<directory>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib</directory> -->
+<!-- 							</lib> -->
+<!-- 							<lib> -->
+<!-- 								<name>kernel32</name> -->
+<!-- 								<directory>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64</directory> -->
+<!-- 							</lib> -->
+<!-- 						</libs> -->
+<!-- 					</linker> -->
+<!-- 					<libraries> -->
+<!-- 						<library> -->
+<!-- 							<type>jni</type> -->
+<!-- 							<narSystemPackage>com.potoman</narSystemPackage> -->
+<!-- 							<linkCPP>false</linkCPP> -->
+<!-- 						</library> -->
+<!-- 					</libraries> -->
+<!-- 					<javah> -->
+<!-- 						<includes> -->
+<!-- 							<include></include> -->
+<!-- 						</includes> -->
+<!-- 					</javah> -->
+<!-- 					<tests> -->
+<!-- 						<test> -->
+<!-- 							<name>HelloWorld</name> -->
+<!-- 						</test> -->
+<!-- 					</tests> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
+<!-- 		</plugins> -->
+<!-- 	</build> -->
+</project>
